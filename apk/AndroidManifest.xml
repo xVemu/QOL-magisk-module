@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    package="com.android.internal.systemui.navbar_spaced.gestural"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14">
+    <!-- It must be 29 for some reason. When it's set to 34,
+    system doesn't recognize this in `cmd overlay list android` -->
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="29"/>
+    <overlay
+        android:priority="1"
+        android:targetPackage="android"/>
+    <application
+        android:label="@string/navigation_bar_mode_title"
+        android:hasCode="false"
+        android:extractNativeLibs="true"/>
+</manifest>

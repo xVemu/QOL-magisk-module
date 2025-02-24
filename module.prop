@@ -1,0 +1,7 @@
+id=QOL-magisk-module
+name=Quality of Life mods
+version=v1.0
+versionCode=1
+author=Vemu
+description=Sets navbar height to 24dp
+updateJson=https://raw.githubusercontent.com/xVemu/QOL-magisk-module/master/update.json
