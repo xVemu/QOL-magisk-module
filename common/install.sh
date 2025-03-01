@@ -9,6 +9,7 @@ find /data/resource-cache -type f -iname "*NavigationBarMode*" -exec rm -rf {} \
 mkdir "$MODPATH"/compiled
 mkdir -p "$MODPATH"/system/app/NavigationBarModeSpacedGestural
 cp -rf "$MODPATH"/tools/service.sh "$MODPATH"
+cp -rf "$MODPATH"/tools/system.prop "$MODPATH"
 
 #Building overlays
 "$MODPATH"/tools/aapt2 compile -v --dir "$MODPATH"/apk/res -o "$MODPATH"/compiled

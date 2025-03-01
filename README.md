@@ -14,3 +14,8 @@
 - META-INF is required when replacing `/system/product`
 - See [AndroidManifest.xml](apk/AndroidManifest.xml)
 - [zipsigner](tools/zipsigner) must be LF
+
+# Silence notification when screen is on - to explore
+- [polite_notfications](https://github.com/aosp-mirror/platform_frameworks_base/blob/main/services/core/java/com/android/server/notification/flags.aconfig)
+- [PoliteNotificationGlobalPreferenceController](https://github.com/aosp-mirror/platform_packages_apps_settings/blob/main/src/com/android/settings/notification/PoliteNotificationGlobalPreferenceController.java)
+- [notification_cooldown_enabled](https://github.com/aosp-mirror/platform_frameworks_base/blob/main/core/java/android/provider/Settings.java)
