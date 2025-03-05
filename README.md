@@ -1,8 +1,9 @@
 # QOL Magisk Module
-## Basically does 3 things:
+## Basically does 4 things:
 - sets navbar height to 24dp, so apps can apply insets
 - sets device smallest width to 400 (432 device dpi)
 - removes annoying notification about high volume
+- enables predictive back gesture
 
 # Takeaways after building module
 - Building apk on device in installation phase in faster to debug, rather than sending whole apk in zip

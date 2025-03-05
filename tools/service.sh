@@ -11,4 +11,5 @@
   done
   sleep 30
   wm density 432
+  settings put global back_navigation_animation 1
 )& # launch in background
